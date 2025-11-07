@@ -1,6 +1,21 @@
 
 ## Project Description
 
+# Software Dependencies
+The following software dependencies were used to reproduce the experiments in this study:
+## Python Version:
+- Python 3.8
+## Deep Learning Frameworks:
+- TensorFlow 2.6.0
+- PyTorch 1.9.0
+## Libraries:
+- Numpy 1.21.2
+- Matplotlib 3.4.2
+- OpenCV 4.5.1
+## Hardware:
+- L40S GPU (CUDA 11.2)
+- 48 GB VRAM
+
 This project uses two datasets: the generated dataset (`generated`) and the source dataset (`source`) to train and evaluate the model. Below is a detailed explanation of the dataset files and how to use them.
 
 ## Dataset File Description
@@ -19,4 +34,5 @@ Since the dataset is split into multiple `.7z` parts, you need software that sup
 
 1. Place all `.7z.001`, `.7z.002`, `.7z.003`, and `.7z.004` files in the same folder.
 2. Use 7-Zip to extract `generated_2.7z.001` or `source_2.7z.001`. The software will automatically combine all parts and extract the complete folder.
+
 
